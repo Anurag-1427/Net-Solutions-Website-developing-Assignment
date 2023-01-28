@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #c7d8f9;
+}
+
+.logo {
+  width: 300px;
+  height: 35px;
+}
+
+.nav_buttons {
+  margin-right: 50px;
+}
+
+/* Banner */
+.banner {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c75f5f;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Contact Forms and sidebar */
+/* .content {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+} */
+/* .contact_us { */
+/* width: 800px; */
+/* } */
+input {
+  border: none;
+  border-bottom: 1px solid black;
+}
+input:focus {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+/* Sidebar */
+.sidebar-content {
+  border: 1px solid #c75f5f;
+  width: 250px;
+}
+.p-undeline {
+  border-bottom: 3px solid #c75f5f;
+  width: fit-content;
+}
+
+/* Footer */
+.footer {
+  background-color: #c7d8f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 10px;
+}
+
+/* Some required media quieries */
+@media (width < 380px) {
+  .logo {
+    width: 200px;
+    height: 25px;
+  }
+}
+@media (width < 380px) {
+  .logo {
+    width: 200px;
+    height: 25px;
+  }
+}
