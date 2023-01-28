@@ -37,6 +37,14 @@ nav {
 .contact_us {
   width: 1040px;
 }
+.contact_us_form {
+  margin-top: 70px;
+}
+textarea {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 70px;
+}
 input {
   border: none;
   border-bottom: 1px solid black;
@@ -68,7 +76,7 @@ input[type="number"] {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 /* Sidebar */
