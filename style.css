@@ -101,6 +101,8 @@ input[type="submit"] {
   font-weight: 700;
   font-size: 15px;
   padding: 10px;
+  position: absolute;
+  bottom: 0;
 }
 
 /* Some required media quieries */
